@@ -11,26 +11,26 @@ close all;
 
 addpath(genpath('Functions'));
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Controlled dataset
-% input_folder='../Dataset/Controlled/';
-% save_folder='../Dataset/Controlled_results/';
-% 
-% lambda = 100;
-% thresh = 1;
-% p=2/3;
-% iter=3;
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+input_folder='../Dataset/Controlled/';
+save_folder='../Dataset/Controlled_results/';
+ 
+lambda = 100;
+thresh = 1;
+p=2/3;
+iter=3;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% In-the-wild dataset
-input_folder='../Dataset/In-the-wild/';
-save_folder='../Dataset/In-the-wild_results/';
-
-lambda = 100;
-thresh = 0.5;
-p=2/3;
-iter=3;
+% input_folder='../Dataset/In-the-wild/';
+% save_folder='../Dataset/In-the-wild_results/';
+%
+% lambda = 100;
+% thresh = 0.5;
+% p=2/3;
+% iter=3;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 allfolders=dir(input_folder);
